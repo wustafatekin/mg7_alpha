@@ -9,6 +9,8 @@ analysis=OFF
 
 set seed ${SEED}
 set events ${NEVENTS}
+set leptonic false #false = proton-proton (hadronic) true=leptonic. in MG5 set lpp1/lpp2 1
+
 set e_cm ${ECM} #different from the MG5 e_c = ebeam1+ebeam2 in units of GeV
 set output_format lhe #different from the MG5, the default is *.npy. If pythia8 or delphes used it automatically creates lhe
 set FT8 ${cvl}
